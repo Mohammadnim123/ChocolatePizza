@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 960px;
+    margin: auto;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header section{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+
+header section div p{
+    font-size: 8px;
+    margin-top: 8px;
+    color: gray;
+}
+
+.first{
+    width: 185px;
+}
+
+.second{
+    width: 235px;
+}
+
+main hr{
+    height: 13px;
+    background-image: url(assets/hr-img.png);
+    margin-top: -5px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+h1{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 40px;
+}
+
+.title p{
+    font-size: 15px;
+    color: gray;
+}
+.p1{
+    margin-top: 5px;
+
+}
+
+.print{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 60px;
+    align-self: flex-end;
+}
+
+.hero{
+    width: 960px;
+    margin: 30px 0px;
+}
+
+.parag{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 222px;
+    color: gray
+}
+
+.parag p{
+    text-indent: 40px;
+}
+
+label{
+    display: block;
+    font-size: 25px;
+    width: 385px;
+    font-family: 'Kiwi Maru', serif;
+    font-weight: 550;
+}
+
+input{
+    padding-right: 5px;
+    /* width: 10px; */
+}
+
+.note{
+    background-image: url(assets/list-bg.png);
+    display: flex;
+    height: 300px;
+    margin: 40px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.note form{
+ margin: auto;
+}
+
+.profile{
+    display: flex;
+    margin: 40px 0px;
+    justify-content: space-between;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-basis: 675px;
+}
+
+.share-btn{
+    width: 180px;
+    height: 50px;
+    color: white;
+    background-color: rgb(188, 112, 88);
+}
+
+h3{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.name p{
+    font-size: 18px;
+    color: gray;
+}
+
+.btn-div{
+    display: flex;
+    align-items: center;
+}
+
+.lines{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+footer hr{
+    width: 28em;
+    margin-top: 1em;
+    
+}
+
+.copy{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40px;
+    color: gray;
+    margin-bottom: 5em;
+
+}
+
+.copy p{
+    flex-basis: 20%;
+}
+
